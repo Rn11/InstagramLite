@@ -17,4 +17,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="nav_camera">Camera</string>
+    <string name="nav_Settings">Settings</string>
+    <string name="nav_Profile">Profile</string>
+    <string name="nav_notifications">Notifications</string>
 </resources>
