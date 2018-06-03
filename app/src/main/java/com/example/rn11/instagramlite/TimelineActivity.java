@@ -8,35 +8,50 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import java.sql.Time;
+
 /**
  * Created by Rn11 on 02.06.2018.
  */
 
 public class TimelineActivity extends AppCompatActivity {
 
-        private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
+                case R.id.nav_timeline:
 
-                    // Navigation for TimelineActivity
+                    // Navigation for Timeline
                     Intent intentTimeline = new Intent(TimelineActivity.this, TimelineActivity.class);
                     startActivity(intentTimeline);
-                    //mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_dashboard:
-                    // Navigation for Settings
+
+                case R.id.nav_settings:
+                    // Navigation for settings
                     Intent intentSettings = new Intent(TimelineActivity.this, SettingsActivity.class);
                     startActivity(intentSettings);
-                    // mTextMessage.setText(R.string.title_dashboard);
                     return true;
-                case R.id.navigation_notifications:
-                    //mTextMessage.setText(R.string.title_notifications);
+
+                case R.id.nav_notifications:
+                    // Navigation for notifications
+                    Intent intentNotifications = new Intent(TimelineActivity.this, NotificationsActivity.class);
+                    startActivity(intentNotifications);
                     return true;
+
+                case R.id.nav_camera:
+                    // Navigation for camera
+                    Intent intentCamera = new Intent(TimelineActivity.this, CameraActivity.class);
+                    startActivity(intentCamera);
+
+                case R.id.nav_profile:
+                    // Navigation for profile
+                    Intent intentProfile = new Intent(TimelineActivity.this, ProfileActivity.class);
+                    startActivity(intentProfile);
             }
+
             return false;
         }
 

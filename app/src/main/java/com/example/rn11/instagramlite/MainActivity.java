@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.nav_timeline:
 
-                    // Navigation for Timeline
+                    // Navigation for TimelinexD
                     Intent intentTimeline = new Intent(MainActivity.this, TimelineActivity.class);
                     startActivity(intentTimeline);
                     return true;
@@ -33,16 +33,19 @@ public class MainActivity extends AppCompatActivity {
 
                 case R.id.nav_notifications:
                     // Navigation for notifications
-                    // TODO: Insert logic to start notifications activity
+                    Intent intentNotifications = new Intent(MainActivity.this, NotificationsActivity.class);
+                    startActivity(intentNotifications);
                     return true;
 
                 case R.id.nav_camera:
                     // Navigation for camera
-                   // TODO: Insert logic to start camera activity
+                    Intent intentCamera = new Intent(MainActivity.this, CameraActivity.class);
+                    startActivity(intentCamera);
 
                 case R.id.nav_profile:
                     // Navigation for profile
-                    // TODO: Insert logic to start profile activity
+                    Intent intentProfile = new Intent(MainActivity.this, ProfileActivity.class);
+                    startActivity(intentProfile);
             }
 
             return false;
