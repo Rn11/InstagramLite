@@ -44,11 +44,13 @@ public class NotificationsActivity extends AppCompatActivity{
                     // Navigation for camera
                     Intent intentCamera = new Intent(NotificationsActivity.this, CameraActivity.class);
                     startActivity(intentCamera);
+                    return true;
 
                 case R.id.nav_profile:
                     // Navigation for profile
                     Intent intentProfile = new Intent(NotificationsActivity.this, ProfileActivity.class);
                     startActivity(intentProfile);
+                    return true;
             }
 
             return false;

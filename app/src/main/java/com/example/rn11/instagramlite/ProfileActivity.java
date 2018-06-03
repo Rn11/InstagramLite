@@ -21,7 +21,7 @@ public class ProfileActivity extends AppCompatActivity{
             switch (item.getItemId()) {
                 case R.id.nav_timeline:
 
-                    // Navigation for TimelinexD
+                    // Navigation for Timeline
                     Intent intentTimeline = new Intent(ProfileActivity.this, TimelineActivity.class);
                     startActivity(intentTimeline);
                     return true;
@@ -42,11 +42,13 @@ public class ProfileActivity extends AppCompatActivity{
                     // Navigation for camera
                     Intent intentCamera = new Intent(ProfileActivity.this, CameraActivity.class);
                     startActivity(intentCamera);
+                    return true;
 
                 case R.id.nav_profile:
                     // Navigation for profile
                     Intent intentProfile = new Intent(ProfileActivity.this, ProfileActivity.class);
                     startActivity(intentProfile);
+                    return true;
             }
 
             return false;

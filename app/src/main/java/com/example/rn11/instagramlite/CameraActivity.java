@@ -42,11 +42,13 @@ public class CameraActivity extends AppCompatActivity{
                     // Navigation for camera
                     Intent intentCamera = new Intent(CameraActivity.this, CameraActivity.class);
                     startActivity(intentCamera);
+                    return true;
 
                 case R.id.nav_profile:
                     // Navigation for profile
                     Intent intentProfile = new Intent(CameraActivity.this, ProfileActivity.class);
                     startActivity(intentProfile);
+                    return true;
             }
 
             return false;
