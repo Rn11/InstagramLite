@@ -18,23 +18,33 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
+                case R.id.nav_timeline:
 
                     // Navigation for Timeline
                     Intent intentTimeline = new Intent(MainActivity.this, TimelineActivity.class);
                     startActivity(intentTimeline);
-                    //mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_dashboard:
+
+                case R.id.nav_settings:
                     // Navigation for settings
                     Intent intentSettings = new Intent(MainActivity.this, SettingsActivity.class);
                     startActivity(intentSettings);
-                   // mTextMessage.setText(R.string.title_dashboard);
                     return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+
+                case R.id.nav_notifications:
+                    // Navigation for notifications
+                    // TODO: Insert logic to start notifications activity
                     return true;
+
+                case R.id.nav_camera:
+                    // Navigation for camera
+                   // TODO: Insert logic to start camera activity
+
+                case R.id.nav_profile:
+                    // Navigation for profile
+                    // TODO: Insert logic to start profile activity
             }
+
             return false;
         }
     };

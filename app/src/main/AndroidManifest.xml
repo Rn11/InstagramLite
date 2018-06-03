@@ -37,6 +37,12 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
+
+        <activity android:name=".ProfileActivity"/>
+
+        <activity android:name=".CameraActivity"/>
+
+        <activity android:name=".NotificationsActivity"/>
 </application>
 
 </manifest>
