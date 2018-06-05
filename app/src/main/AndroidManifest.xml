@@ -44,7 +44,7 @@
             android:label="@string/title_activity_timeline" />
 
         <activity
-            android:name=".SettingsActivity"
+            android:name=".SearchActivity"
             android:label="@string/title_activity_settings" />
 
         <activity

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/InstagramLite.iml" filepath="$PROJECT_DIR$/.idea/InstagramLite.iml" />
       <module fileurl="file://$PROJECT_DIR$/InstagramLite.iml" filepath="$PROJECT_DIR$/InstagramLite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Rn11\AndroidStudioProjects\InstagramLite\.idea\InstagramLite.iml" filepath="C:\Users\Rn11\AndroidStudioProjects\InstagramLite\.idea\InstagramLite.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
