@@ -31,7 +31,7 @@ public class TimelineActivity extends AppCompatActivity {
 
                 case R.id.nav_settings:
                     // Navigation for settings
-                    Intent intentSettings = new Intent(TimelineActivity.this, SettingsActivity.class);
+                    Intent intentSettings = new Intent(TimelineActivity.this, SearchActivity.class);
                     startActivity(intentSettings);
                     return true;
 

@@ -12,7 +12,7 @@ import android.view.MenuItem;
  * Created by Rn11 on 02.06.2018.
  */
 
-public class SettingsActivity extends AppCompatActivity {
+public class SearchActivity extends AppCompatActivity {
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -23,19 +23,19 @@ public class SettingsActivity extends AppCompatActivity {
                 case R.id.nav_timeline:
 
                     // Navigation for Timeline
-                    Intent intentTimeline = new Intent(SettingsActivity.this, TimelineActivity.class);
+                    Intent intentTimeline = new Intent(SearchActivity.this, TimelineActivity.class);
                     startActivity(intentTimeline);
                     return true;
 
                 case R.id.nav_settings:
                     // Navigation for settings
-                    Intent intentSettings = new Intent(SettingsActivity.this, SettingsActivity.class);
+                    Intent intentSettings = new Intent(SearchActivity.this, SearchActivity.class);
                     startActivity(intentSettings);
                     return true;
 
                 case R.id.nav_notifications:
                     // Navigation for notifications
-                    Intent intentNotifications = new Intent(SettingsActivity.this, NotificationsActivity.class);
+                    Intent intentNotifications = new Intent(SearchActivity.this, NotificationsActivity.class);
                     startActivity(intentNotifications);
                     return true;
 
@@ -47,7 +47,7 @@ public class SettingsActivity extends AppCompatActivity {
 
                 case R.id.nav_profile:
                     // Navigation for profile
-                    Intent intentProfile = new Intent(SettingsActivity.this, ProfileActivity.class);
+                    Intent intentProfile = new Intent(SearchActivity.this, ProfileActivity.class);
                     startActivity(intentProfile);
                     return true;
             }
@@ -59,7 +59,7 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
+        setContentView(R.layout.activity_search);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
