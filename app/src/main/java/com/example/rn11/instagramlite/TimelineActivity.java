@@ -43,8 +43,8 @@ public class TimelineActivity extends AppCompatActivity {
 
                 case R.id.nav_camera:
                     // Navigation for camera
-                    Intent intentCamera = new Intent(TimelineActivity.this, CameraActivity.class);
-                    startActivity(intentCamera);
+                    Intent intentCamera = new Intent("android.media.action.IMAGE_CAPTURE");
+                    startActivityForResult(intentCamera, 0);
                     return true;
 
                 case R.id.nav_profile:
