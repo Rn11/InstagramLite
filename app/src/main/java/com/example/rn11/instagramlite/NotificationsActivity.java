@@ -30,7 +30,7 @@ public class NotificationsActivity extends AppCompatActivity{
 
                 case R.id.nav_settings:
                     // Navigation for settings
-                    Intent intentSettings = new Intent(NotificationsActivity.this, SettingsActivity.class);
+                    Intent intentSettings = new Intent(NotificationsActivity.this, SearchActivity.class);
                     startActivity(intentSettings);
                     return true;
 

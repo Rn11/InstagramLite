@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
                 case R.id.nav_settings:
                     // Navigation for settings
-                    Intent intentSettings = new Intent(MainActivity.this, SettingsActivity.class);
+                    Intent intentSettings = new Intent(MainActivity.this, SearchActivity.class);
                     startActivity(intentSettings);
                     return true;
 

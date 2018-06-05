@@ -28,7 +28,7 @@ public class ProfileActivity extends AppCompatActivity{
 
                 case R.id.nav_settings:
                     // Navigation for settings
-                    Intent intentSettings = new Intent(ProfileActivity.this, SettingsActivity.class);
+                    Intent intentSettings = new Intent(ProfileActivity.this, SearchActivity.class);
                     startActivity(intentSettings);
                     return true;
 

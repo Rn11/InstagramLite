@@ -28,7 +28,7 @@ public class CameraActivity extends AppCompatActivity{
 
                 case R.id.nav_settings:
                     // Navigation for settings
-                    Intent intentSettings = new Intent(CameraActivity.this, SettingsActivity.class);
+                    Intent intentSettings = new Intent(CameraActivity.this, SearchActivity.class);
                     startActivity(intentSettings);
                     return true;
 
