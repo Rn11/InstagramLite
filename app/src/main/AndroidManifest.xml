@@ -28,7 +28,7 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main"></activity>
+            android:label="@string/title_activity_main" />
 
         <activity
             android:name=".TimelineActivity"
@@ -37,6 +37,19 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"/>
+
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera"/>
+
+        <activity
+            android:name=".NotificationsActivity"
+            android:label="@string/title_activity_notifications"/>
+
 </application>
 
 </manifest>

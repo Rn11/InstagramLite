@@ -20,23 +20,38 @@ public class SettingsActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
+                case R.id.nav_timeline:
 
                     // Navigation for Timeline
                     Intent intentTimeline = new Intent(SettingsActivity.this, TimelineActivity.class);
                     startActivity(intentTimeline);
-                    //mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_dashboard:
-                    // Navigation for Settings
+
+                case R.id.nav_settings:
+                    // Navigation for settings
                     Intent intentSettings = new Intent(SettingsActivity.this, SettingsActivity.class);
                     startActivity(intentSettings);
-                    // mTextMessage.setText(R.string.title_dashboard);
                     return true;
-                case R.id.navigation_notifications:
-                    //mTextMessage.setText(R.string.title_notifications);
+
+                case R.id.nav_notifications:
+                    // Navigation for notifications
+                    Intent intentNotifications = new Intent(SettingsActivity.this, NotificationsActivity.class);
+                    startActivity(intentNotifications);
+                    return true;
+
+                case R.id.nav_camera:
+                    // Navigation for camera
+                    Intent intentCamera = new Intent(SettingsActivity.this, CameraActivity.class);
+                    startActivity(intentCamera);
+                    return true;
+
+                case R.id.nav_profile:
+                    // Navigation for profile
+                    Intent intentProfile = new Intent(SettingsActivity.this, ProfileActivity.class);
+                    startActivity(intentProfile);
                     return true;
             }
+
             return false;
         }
     };
