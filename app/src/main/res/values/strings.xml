@@ -17,7 +17,7 @@
     <!-- Title for activities -->
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_timeline">Timeline</string>
-    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_search">Search</string>
     <string name="title_activity_notifications">Notifications</string>
     <string name="title_activity_camera">Camera</string>
     <string name="title_activity_profile">Profile</string>
@@ -29,7 +29,7 @@
     <!-- Strings related bottom navigation view -->
     <string name="nav_timeline">Timeline</string>
     <string name="nav_camera">Camera</string>
-    <string name="nav_settings">Settings</string>
+    <string name="nav_search">Search</string>
     <string name="nav_profile">Profile</string>
     <string name="nav_notifications">Notifications</string>
 

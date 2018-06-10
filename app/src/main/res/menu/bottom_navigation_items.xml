@@ -21,7 +21,7 @@
         android:icon="?android:attr/alertDialogIcon"
         android:title="@string/nav_profile" />
     <item
-        android:id="@+id/nav_settings"
-        android:icon="@android:drawable/ic_menu_preferences"
-        android:title="@string/nav_settings" />
+        android:id="@+id/nav_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="@string/nav_search" />
 </menu>

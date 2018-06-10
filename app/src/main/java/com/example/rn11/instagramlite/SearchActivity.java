@@ -27,7 +27,7 @@ public class SearchActivity extends AppCompatActivity {
                     startActivity(intentTimeline);
                     return true;
 
-                case R.id.nav_settings:
+                case R.id.nav_search:
                     // Navigation for settings
                     Intent intentSettings = new Intent(SearchActivity.this, SearchActivity.class);
                     startActivity(intentSettings);

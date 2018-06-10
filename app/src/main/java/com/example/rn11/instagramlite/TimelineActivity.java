@@ -8,8 +8,6 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-import java.sql.Time;
-
 /**
  * Created by Rn11 on 02.06.2018.
  */
@@ -29,7 +27,7 @@ public class TimelineActivity extends AppCompatActivity {
                     startActivity(intentTimeline);
                     return true;
 
-                case R.id.nav_settings:
+                case R.id.nav_search:
                     // Navigation for settings
                     Intent intentSettings = new Intent(TimelineActivity.this, SearchActivity.class);
                     startActivity(intentSettings);
