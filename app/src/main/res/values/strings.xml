@@ -15,7 +15,6 @@
     </string>
 
     <!-- Title for activities -->
-    <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_timeline">Timeline</string>
     <string name="title_activity_search">Search</string>
     <string name="title_activity_notifications">Notifications</string>
